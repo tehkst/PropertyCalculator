@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Property Calculator</title>
+    <title>Enhanced Property Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -14,8 +14,20 @@
             <input type="number" id="price" placeholder="Enter price">
         </div>
         <div class="input-group">
-            <label for="tenure">Tenure (years):</label>
-            <input type="number" id="tenure" placeholder="Enter tenure">
+            <label for="repair">Repair Costs ($):</label>
+            <input type="number" id="repair" placeholder="Enter repair costs">
+        </div>
+        <div class="input-group">
+            <label for="holding">Holding Costs ($):</label>
+            <input type="number" id="holding" placeholder="Enter holding costs">
+        </div>
+        <div class="input-group">
+            <label for="selling">Selling Costs ($):</label>
+            <input type="number" id="selling" placeholder="Enter selling costs">
+        </div>
+        <div class="input-group">
+            <label for="arv">After Repair Value (ARV) ($):</label>
+            <input type="number" id="arv" placeholder="Enter ARV">
         </div>
         <button onclick="calculate()">Calculate</button>
         <div class="result" id="result"></div>
