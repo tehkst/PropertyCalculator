@@ -14,4 +14,3 @@ function calculate() {
         resultDiv.innerHTML = 'Please enter all the required values.';
     }
 }
-
